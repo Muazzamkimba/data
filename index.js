@@ -20,5 +20,51 @@ console.log(madeAString);
 // all the array items together into a single
 // string, and returns this new string
 
+console.log('i am goin back to kimba in a mean while');
+
+function myFunction() {
+  alert("hello");
+}
+
+
+alert('hello dan kimba');
+
+const maes = ["i",  "love",  "my",  "cafe",];
+const naem = maes.join("");
+console.log(naem);
+
+let cv = ('how are you');
+let vc = ('ibrahim');
+console.log(`${vc} ${cv}`);
+
+function hello(name = "Chris") {
+  console.log(`Hello ${name}!`);
+}
+
+hello("Ari"); // Hello Ari!
+hello(); // Hello Chris!
+
+
+const originals = [1, 2, 3];
+
+const doubled = originals.map((item) => item * 2);
+
+console.log(doubled);
+
+// first.js
+const name = "Chris";
+function greeting() {
+  alert(`Hello ${name}: welcome to our company.`);
+}
+
+let name1 = ('KEEM - NET SEC AND GENERAL ENTERPRISES');
+function greeting()
+{alert(`our company name is called ${name1}`);}
+
+
+
+
+
+
 
 
