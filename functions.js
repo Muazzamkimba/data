@@ -46,3 +46,6 @@ let taxx = calculatetaxxx(100);
 taxx();*/
 
 console.log(100*100);
+
+
+
