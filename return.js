@@ -16,3 +16,7 @@ console.log(p.replace(regex, 'ferret'));
 // Expected output: "The quick brown fox jumps over the lazy ferret. If the dog reacted, was it really lazy?"
 
 
+function myfavouriteanimal(animal){
+    return animal + ' is my favourite animal!'
+}
+console.log(myfavouriteanimal ('goat'));
