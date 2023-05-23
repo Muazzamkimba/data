@@ -48,7 +48,7 @@ taxx();*/
 console.log(100*100);
 
 
-let userName = 'John';
+/*let userName = 'John';
 
 function showMessage() {
   let userName = "Bob"; // declare a local variable
@@ -61,4 +61,4 @@ function showMessage() {
 showMessage();
 
 alert( userName ); // John, unchanged, the function did not access the outer variable
-
+*/

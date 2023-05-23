@@ -1,0 +1,14 @@
+function showMessage(from, text) { // parameters: from, text
+    alert(from + ': ' + ' i just wan to say ' + text);
+  }
+  
+  showMessage('Ann', 'Hello!'); // Ann: Hello! (*)
+  showMessage('Ann', "What's up?"); // Ann: What's up? (**)
+
+
+  function showMessagee(from, text, pay) { // parameters: from, text
+    alert(from + ': ' + ' i just wan to say ' + text + pay);
+  }
+  
+  showMessagee('Ann', 'Hello!', ' hope you are fine'); // Ann: Hello! (*)
+  showMessagee('Ann', "What's up?", ' how are you'); // Ann: What's up? (**)
