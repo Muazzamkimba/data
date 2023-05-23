@@ -20,3 +20,45 @@ function myfavouriteanimal(animal){
     return animal + ' is my favourite animal!'
 }
 console.log(myfavouriteanimal ('goat'));
+
+function showMessage() {
+  alert( 'Hello everyone!' );
+}
+showMessage();
+showMessage();
+
+
+function showMessage() {
+  let message = "Hello, I'm JavaScript!"; // local variable
+
+  alert( message );
+}
+
+showMessage(); // Hello, I'm JavaScript!
+
+
+
+let userName = 'John';
+
+function showMessagee() {
+  let message = 'Hello, ' + userName;
+  alert(message);
+}
+showMessagee(); // Hello, John
+
+
+
+let userNamee = 'Johnn';
+
+function showMessageee() {
+  userNamee = "Bobe"; // (1) changed the outer variable
+
+  let message = 'Hello, ' + userNamee;
+  alert(message);
+}
+
+alert( userNamee ); // John before the function call
+
+showMessageee();
+
+alert( userNamee ); // Bob, the value was modified by the function
