@@ -61,3 +61,11 @@ alert( userNamee ); // John before the function call
 showMessageee();
 
 alert( userNamee ); // Bob, the value was modified by the function
+
+
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert(result);
