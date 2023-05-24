@@ -27,3 +27,10 @@ showMessageee(from, "Hello"); // *Ann*: Hello
 
 // the value of "from" is the same, the function modified a local copy
 alert( from ); // Ann
+
+
+function showMessageeee(from, text = "no text given") {
+  alert( from + ": " + text );
+}
+
+showMessageeee("Ann"); // Ann: no text given
