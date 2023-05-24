@@ -61,3 +61,27 @@ alert( userNamee ); // John before the function call
 showMessageee();
 
 alert( userNamee ); // Bob, the value was modified by the function
+
+
+function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert(result);
+
+function checkAge(age) {
+  if (age >= 18) {
+    return true;
+  } else {
+    return confirm('Do you have permission from your parents?');
+  }
+}
+
+let age = prompt('How old are you?', 18);
+
+if ( checkAge(age) ) {
+  alert( 'Access granted' );
+} else {
+  alert( 'Access denied' );
+}
