@@ -12,3 +12,18 @@ function showMessage(from, text) { // parameters: from, text
   
   showMessagee('Ann', 'Hello!', ' hope you are fine'); // Ann: Hello! (*)
   showMessagee('Ann', "What's up?", ' how are you'); // Ann: What's up? (**)
+
+
+  function showMessageee(from, text) {
+
+  from = '*' + from + '*'; // make "from" look nicer
+
+  alert( from + ': ' + text );
+}
+
+let from = "Ann";
+
+showMessageee(from, "Hello"); // *Ann*: Hello
+
+// the value of "from" is the same, the function modified a local copy
+alert( from ); // Ann
