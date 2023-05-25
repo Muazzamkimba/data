@@ -1,4 +1,4 @@
-function sayhello(){ 
+/*function sayhello(){ 
     console.log('whatsapp');
 }
 
@@ -62,3 +62,9 @@ showMessage();
 
 alert( userName ); // John, unchanged, the function did not access the outer variable
 */
+
+
+function sayhi(){
+    alert('hello mr micheal');
+}
+sayhi();

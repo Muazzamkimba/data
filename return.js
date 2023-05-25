@@ -1,4 +1,4 @@
-const myTextt = ("The weather is cold");
+/*const myTextt = ("The weather is cold");
 const newStringg = myTextt.replace("cold", "warm");
 console.log(newStringg); // Should print "The weather is warm"
 // the replace() string function takes a string,
@@ -85,3 +85,4 @@ if ( checkAge(age) ) {
 } else {
   alert( 'Access denied' );
 }
+*/

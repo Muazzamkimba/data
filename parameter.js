@@ -1,4 +1,4 @@
-function showMessage(from, text) { // parameters: from, text
+/*function showMessage(from, text) { // parameters: from, text
     alert(from + ': ' + ' i just wan to say ' + text);
   }
   
@@ -34,3 +34,4 @@ function showMessageeee(from, text = "no text given") {
 }
 
 showMessageeee("Ann"); // Ann: no text given
+*/
