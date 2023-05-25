@@ -1,4 +1,4 @@
-console.log('hello, world');
+/*console.log('hello, world');
 
 console.table([
     {first: 'rene', last: 'magrite',},
@@ -70,7 +70,7 @@ function showMovie(age) {
   alert( "Showing you the movie" ); // (*)
   // ...
 }
-
+*/
 
 
 
