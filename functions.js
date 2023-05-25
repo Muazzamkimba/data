@@ -111,7 +111,7 @@ function sayHi() {   // (1) create
   );
   */
 
-  let age = prompt("What is your age?", 18);
+  /*let age = prompt("What is your age?", 18);
 
   // conditionally declare a function
   if (age < 18) {
@@ -129,4 +129,23 @@ function sayHi() {   // (1) create
   }
   
  welcome();
+*/
+
+let age = 16; // take 16 as an example
+
+if (age < 18) {
+  welcome();               // \   (runs)
+                           //  |
+  function welcome() {     //  |
+    alert("Hello!");       //  |  Function Declaration is available
+  }                        //  |  everywhere in the block where it's declared
+                           //  |
+  welcome();               // /   (runs)
+
+} else {
+
+  function welcome() {
+    alert("Greetings!");
+  }
+}
 
