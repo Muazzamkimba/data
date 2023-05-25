@@ -71,6 +71,7 @@ alert( userName ); // John, unchanged, the function did not access the outer var
 sayhi();
 */
 
+/*
 function sayHi() {   // (1) create
     alert( "Hello" );
   }
@@ -96,4 +97,36 @@ function sayHi() {   // (1) create
   
   // usage: functions showOk, showCancel are passed as arguments to ask
   ask("Do you agree?", showOk, showCancel);
+  */
+
+  /*function ask(question, yes, no) {
+    if (confirm(question)) yes()
+    else no();
+  }
   
+  ask(
+    "Do you agree?",
+    function() { alert("You agreed."); },
+    function() { alert("You canceled the execution."); }
+  );
+  */
+
+  let age = prompt("What is your age?", 18);
+
+  // conditionally declare a function
+  if (age < 18) {
+  
+    function welcome() {
+      alert("Hello!");
+    }
+  
+  } else {
+  
+    function welcome() {
+      alert("Greetings!");
+    }
+  
+  }
+  
+ welcome();
+
