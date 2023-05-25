@@ -62,7 +62,14 @@ function greeting()
 {alert(`our company name is called ${name1}`);}
 
 
+function showMovie(age) {
+  if ( !checkAge(age) ) {
+    return;
+  }
 
+  alert( "Showing you the movie" ); // (*)
+  // ...
+}
 
 
 
