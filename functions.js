@@ -64,7 +64,36 @@ alert( userName ); // John, unchanged, the function did not access the outer var
 */
 
 
-function sayhi(){
+/*function sayhi(){
     alert('hello mr micheal');
 }
+//alert ('sayhi');
 sayhi();
+*/
+
+function sayHi() {   // (1) create
+    alert( "Hello" );
+  }
+  
+  let func = sayHi;    // (2) copy
+  
+  func(); // Hello     // (3) run the copy (it works)!
+  sayHi(); // Hello    //     this still works too (why wouldn't it)
+  
+
+  function ask(question, yes, no) {
+    if (confirm(question)) yes()
+    else no();
+  }
+  
+  function showOk() {
+    alert( "You agreed." );
+  }
+  
+  function showCancel() {
+    alert( "You canceled the execution." );
+  }
+  
+  // usage: functions showOk, showCancel are passed as arguments to ask
+  ask("Do you agree?", showOk, showCancel);
+  
