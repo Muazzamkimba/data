@@ -86,3 +86,16 @@ if ( checkAge(age) ) {
   alert( 'Access denied' );
 }
 */
+
+function ask(question, yes, no){
+    if(confirm(question)) yes()
+    else no();
+}
+  function showok(){
+    alert(' i agred');}
+
+    function showcancel(){
+      alert('cancel execution');
+    }
+
+    ask('do you agree?', showok, showcancel);
