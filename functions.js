@@ -131,7 +131,7 @@ function sayHi() {   // (1) create
  welcome();
 */
 
-let age = 16; // take 16 as an example
+/*let age = 16; // take 16 as an example
 
 if (age < 18) {
   welcome();               // \   (runs)
@@ -149,3 +149,4 @@ if (age < 18) {
   }
 }
 
+*/
