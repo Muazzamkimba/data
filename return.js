@@ -108,5 +108,12 @@ function ask(question, yes, no){
 let boy = acceleartion(50000, 10);
 console.log(boy);
 
+function housemeasurement(height, length){
+  let result = height * length;
+  return result;
+}
+
+let anser = housemeasurement(10, 15);
+alert(anser);
 
     
