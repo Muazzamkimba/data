@@ -35,3 +35,15 @@ function showMessageeee(from, text = "no text given") {
 
 showMessageeee("Ann"); // Ann: no text given
 */
+
+let first = ('the flatform are getting better');
+let second = first.replace('better', 'worse',);
+console.log(second);
+
+function sum(a, b){
+  let result = a + b;
+  return result;
+}
+
+let anza = sum(2, 20);
+console.log (anza);
