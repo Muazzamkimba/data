@@ -87,6 +87,7 @@ if ( checkAge(age) ) {
 }
 */
 
+/*
 function ask(question, yes, no){
     if(confirm(question)) yes()
     else no();
@@ -99,3 +100,13 @@ function ask(question, yes, no){
     }
 
     ask('do you agree?', showok, showcancel);
+    */
+
+    function acceleartion(distance, time){ 
+      let result = distance * time;
+      return result;}
+let boy = acceleartion(50000, 10);
+console.log(boy);
+
+
+    
