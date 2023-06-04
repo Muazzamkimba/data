@@ -34,7 +34,6 @@ function showMessageeee(from, text = "no text given") {
 }
 
 showMessageeee("Ann"); // Ann: no text given
-*/
 
 let first = ('the flatform are getting better');
 let second = first.replace('better', 'worse',);
@@ -47,3 +46,35 @@ function sum(a, b){
 
 let anza = sum(2, 20);
 console.log (anza);
+*/
+
+
+function ask(question, yes, no){
+  if (confirm(question)) yes()
+  else no();
+}
+  function showok(){
+    alert ('you agreed');
+  }
+  function showcancel(){
+    alert ('you cancel execution');
+  }
+
+  ask('do you agreed?', showok, showcancel);
+
+/*
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+function showOk() {
+  alert( "You agreed." );
+}
+
+function showCancel() {
+  alert( "You canceled the execution." );
+}
+
+// usage: functions showOk, showCancel are passed as arguments to ask
+ask("Do you agree?", showOk, showCancel);*/

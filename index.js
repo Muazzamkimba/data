@@ -70,7 +70,7 @@ function showMovie(age) {
   alert( "Showing you the movie" ); // (*)
   // ...
 }
-*/
+
 
 function percentage(student){
   let result = (student/100);
@@ -78,6 +78,7 @@ function percentage(student){
 }
 let xup = percentage(200);
 console.log(xup);
+*/
 
 
 
