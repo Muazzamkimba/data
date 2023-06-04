@@ -100,8 +100,7 @@ function ask(question, yes, no){
     }
 
     ask('do you agree?', showok, showcancel);
-    */
-
+    
     function acceleartion(distance, time){ 
       let result = distance * time;
       return result;}
@@ -115,5 +114,6 @@ function housemeasurement(height, length){
 
 let anser = housemeasurement(10, 15);
 alert(anser);
+*/
 
     
