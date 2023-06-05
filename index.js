@@ -80,11 +80,17 @@ let xup = percentage(200);
 console.log(xup);
 */
 
-let str = '';
+/*let str = '';
 for (let i=0; i<9; i++){
   str = str + i;
 }
-console.log(str);
+console.log(str);*/
+
+for (let i = 0; i < 9; i++) {
+  console.log(i);
+  // more statements
+}
+
 
 
 
