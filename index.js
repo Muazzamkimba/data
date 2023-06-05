@@ -91,6 +91,9 @@ for (let i = 0; i < 9; i++) {
   // more statements
 }
 
+for (let z=1; z<20; z++){
+  console.log(z);
+}
 
 
 
