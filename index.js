@@ -80,11 +80,12 @@ let xup = percentage(200);
 console.log(xup);
 */
 
-/*let str = '';
+/*
+let str = '';
 for (let i=0; i<9; i++){
   str = str + i;
 }
-console.log(str);*/
+console.log(str);
 
 for (let i = 0; i < 9; i++) {
   console.log(i);
@@ -94,6 +95,23 @@ for (let i = 0; i < 9; i++) {
 for (let z=1; z<20; z++){
   console.log(z);
 }
+*/
+
+for (var i = 0; i < 3; i++) {
+  setTimeout(()=> {
+    console.log(i);
+  }, 1000);
+}
+/*
+for (var i = 0; i < 3; i++) {
+  setTimeout(() => {
+    console.log(i);
+  }, 1000);
+}
+*/
+
+
+
 
 
 
