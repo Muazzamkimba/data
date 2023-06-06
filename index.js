@@ -110,9 +110,17 @@ for (var i = 0; i < 3; i++) {
 }
 */
 
+for (let i = 0;; i++){
+  console.log(i);
+  if (i>0) break;
+}
 
-
-
+let p=0;
+for (;;){
+  if (p>3) break;
+  console.log(p);
+  p++;
+}
 
 
 
