@@ -109,7 +109,7 @@ for (var i = 0; i < 3; i++) {
   }, 1000);
 }
 */
-
+/*
 for (let i = 0;; i++){
   console.log(i);
   if (i>0) break;
@@ -120,9 +120,17 @@ for (;;){
   if (p>3) break;
   console.log(p);
   p++;
+}*/
+
+for (let i = 0; i<3; i++){
+  setTimeout(()=>{
+    console.log(i);
+  }, 1000);
 }
 
-
+for (let x=0; x<3; x++){
+  console.log(x);
+}
 
 
 
