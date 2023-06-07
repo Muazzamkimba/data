@@ -78,3 +78,7 @@ function showCancel() {
 
 // usage: functions showOk, showCancel are passed as arguments to ask
 ask("Do you agree?", showOk, showCancel);*/
+
+for (let i=0, getI=()=>i; i<3; i++, getI=()=>i){
+  console.log(getI());
+}
