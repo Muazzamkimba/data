@@ -120,7 +120,7 @@ for (;;){
   if (p>3) break;
   console.log(p);
   p++;
-}*/
+}
 
 for (let i = 0; i<3; i++){
   setTimeout(()=>{
@@ -131,6 +131,6 @@ for (let i = 0; i<3; i++){
 for (let x=0; x<3; x++){
   console.log(x);
 }
-
+*/
 
 
