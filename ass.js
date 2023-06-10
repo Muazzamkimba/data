@@ -4,6 +4,5 @@ for (let i=1; i<=answer; i++){
         console.log('buzz');}
         else {console.log('i');}
 }
-let pi = 2
-console.log('pi');
+
 
