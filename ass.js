@@ -7,3 +7,5 @@ for (let i=1; i<=answer; i++){
         else console.log(i);
 }
 
+let rec = 5;
+alert(rec);
