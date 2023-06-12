@@ -6,6 +6,3 @@ for (let i=1; i<=answer; i++){
         else if (i%5===0){console.log('fuzz');}
         else console.log(i);
 }
-
-let rec = 5;
-alert(rec);
