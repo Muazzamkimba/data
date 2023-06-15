@@ -6,5 +6,4 @@ for (let i=1; i<=answer; i++){
         else if (i%5===0){console.log('fuzz');}
         else console.log(i);
 }
-let ref = 'my name is kawo';
-console.log(ref);
+
